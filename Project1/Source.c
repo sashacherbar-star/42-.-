@@ -6,7 +6,8 @@
 void main(main) 
 {
 	setlocale(LC_ALL, "rus");
-	int num;           
+	int num;      
+	int arr[10];
 	int positive = 0; 
 	int negative = 0;  
 	int i = 1;         
@@ -23,6 +24,7 @@ void main(main)
 
 		i++;
 	}
+	printf("Ваши числа");
 
 	if (positive > negative)
 		printf("Положительных чисел больше \n");
